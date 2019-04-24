@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import "rc-slider/assets/index.css";
+
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 
