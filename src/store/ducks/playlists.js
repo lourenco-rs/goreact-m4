@@ -9,7 +9,7 @@ const INITIAL_STATE = {
 };
 
 /**
- * RECUCERS
+ * REDUCERS
  */
 export default function playlists(state = INITIAL_STATE, action) {
   switch (action.type) {
@@ -30,7 +30,7 @@ export const Creators = {
   getPlaylistsRequest: () => ({ type: Types.GET_REQUEST }),
 
   getPlaylistsSuccess: data => ({
-    type: Types.GET_REQUEST,
+    type: Types.GET_SUCCESS,
     payload: { data }
   })
 };
